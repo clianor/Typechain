@@ -9,3 +9,20 @@ $ npx tsconfig.json
 
 ## First steps with Typescript
 ?는 optional parameter
+
+## Types in Typescript
+typescript에서 타입은 변수명 또는 파라미터에 아래와 같이 표현할 수 있다.
+```typescript
+변수: 타입
+파라미터: 타입
+```
+
+화살표 함수로 사용시 아래와 같이 표현할 수 있다.
+```typescript
+const 함수명 = (): 반환타입 => {};
+```
+
+tsc-watch를 이용하면 파일을 수정하면 바로 반영시킬 수 있다.
+```bash
+$ yarn add -D tsc-watch
+```
