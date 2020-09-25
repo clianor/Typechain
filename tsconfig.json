@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5", // 어느 버전으로 컴파일할지
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es6",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist", // 빌드된 결과물이 존재할 위치
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "exclude": [ // node_moduels를 제외
+    "node_modules"
+  ],
+  "include": [ // src 폴더 내의 ts 파일들을 포함
+    "./src/**/*.ts"
+  ]
+}
