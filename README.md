@@ -26,3 +26,7 @@ tsc-watch를 이용하면 파일을 수정하면 바로 반영시킬 수 있다.
 ```bash
 $ yarn add -D tsc-watch
 ```
+
+## Interfaces on Typescript
+새로운 타입을 선언할때 interface를 사용할 수 있다.
+인터페이스는 여러 타입을 가지는 프로퍼티로 이루어진 새로운 타입을 정의하는 것과 유사하다.
